@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .game-board {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 20px 0;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cell {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 40px;
+    background-color: white;
+  }
+  
+  .cell:hover {
+    cursor: pointer;
+    background-color: lightgray;
+  }
+  
+  .status {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
